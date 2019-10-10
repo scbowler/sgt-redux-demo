@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
 import { connect } from 'react-redux';
+import { addGradeData } from '../actions';
 import Input from './input';
 
 class AddGradeForm extends Component {
     async handleAddUpdate(values){
         // Do add functionality first
 
-        console.log('Add or update grade entry:', values);
+        // console.log('Add or update grade entry:', values);
+        await this.props.addGradeData(values);
+
+        this.props.reset();
     }
 
     handleReset(){
         console.log('Reset the form');
+        this.props.reset();
     }
 
     render(){
@@ -52,4 +57,6 @@ function mapStateToProps(state){
     return {}
 }
 
-export default connect(mapStateToProps, { })(AddGradeForm);
+export default connect(mapStateToProps, {
+    addGradeData: addGradeData
+})(AddGradeForm);

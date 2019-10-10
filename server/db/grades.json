@@ -20,6 +20,41 @@
       "grade": 92,
       "name": "Scott Bowler",
       "id": 4
+    },
+    {
+      "course": "Comp Sci 201",
+      "createdAt": 1570666611244,
+      "grade": 92,
+      "name": "New Student",
+      "id": 5
+    },
+    {
+      "course": "English 101",
+      "createdAt": 1570666912559,
+      "grade": 63,
+      "name": "Jim Bob",
+      "id": 6
+    },
+    {
+      "course": "English 101",
+      "createdAt": 1570666925066,
+      "grade": 63,
+      "name": "Jim Bob",
+      "id": 7
+    },
+    {
+      "course": "English 101",
+      "createdAt": 1570666925504,
+      "grade": 63,
+      "name": "Jim Bob",
+      "id": 8
+    },
+    {
+      "course": "Math 093",
+      "createdAt": 1570667206926,
+      "grade": 34,
+      "name": "Steve Smith",
+      "id": 9
     }
   ]
 }
